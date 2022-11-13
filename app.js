@@ -1,6 +1,6 @@
 //toggle button
 const ball = document.querySelector(".toggle-ball");
-const items = document.querySelectorAll(".container,.navbar-container,.job-description,.toggle,.card,.drop_box");
+const items = document.querySelectorAll(".container,.navbar-container,.job-description,.toggle,.card,h4,h3,#description,#myProgress,#myBar,.result");
 ball.addEventListener("click", () => {
   items.forEach((item) => {
     item.classList.toggle("active");

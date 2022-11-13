@@ -93,8 +93,8 @@ body {
     padding: 10px 30px 40px;
 }
 .job-description.active {
-    color: black;
-    background-color: white;
+    color:white;
+    background-color:black;
 }
 textarea{
     resize: none;
@@ -102,6 +102,10 @@ textarea{
     height: 260px;
     border: none;
 }
+/*textarea.active{
+    color: white;
+    background-color: black;
+}*/
 #desciption{
     flex: 1;
     margin-right: 30px;
@@ -111,6 +115,10 @@ textarea{
     height: 260px;
     background-color: #ffffff;
     padding: 10px 30px 40px;
+}
+#description.active {
+    color: white;
+    background-color: black;
 }
 .resume-upload{
     flex: 1;
@@ -195,6 +203,9 @@ textarea{
     width: 100%;
     background-color: white;
 }
+#myProgress.active {
+    background-color:#010101;
+}
 
 #myBar {
     width: 0%;
@@ -203,6 +214,9 @@ textarea{
     text-align: center;
     line-height: 30px;
     color: white;
+}
+#myBar.active{
+    color: black;
 }
 .result{
     height: 260px;
@@ -215,7 +229,10 @@ textarea{
     width: 500px;
     margin-left: 300px;
     background-color: #ffffff;
-    
+   
+}
+.result.active{
+    background-color:#010101;
 }
 .result-name{
     top:10px;
@@ -276,6 +293,16 @@ svg{
     right: 695px;
     top: 450px;
     bottom: 0px;
-
 }
-
+.card.active{
+    background-color: #010101;
+    color: white;
+}
+h4.active{
+    background-color: #010101;
+    color: white;
+}
+h3.active {
+    background-color: #010101;
+    color: white;
+}
